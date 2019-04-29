@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+
+<head>
+    <meta charset="utf-8">
+    <!-- utf-8 works for most cases -->
+    <meta name="viewport" content="width=device-width">
+    <!-- Forcing initial-scale shouldn't be necessary -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Use the latest (edge) version of IE rendering engine -->
+    <meta name="x-apple-disable-message-reformatting">
+    <!-- Disable auto-scale in iOS 10 Mail entirely -->
+    
+    
+    
+    <!-- Pre Header -->
+    <meta class="mktoString" id="preheader" mktoname="Preheader Text" default="" />
+
+<!-- Header -->
+    <meta class="mktoBoolean" id="showHeaderButton" mktoName="Header Button" default="true" false_value="all;display:none" true_value="" false_value_name="hide" true_value_name="show" mktomodulescope="true" >
+    <meta class="mktoString" id="HeaderPanelButtonLink" mktoname="Header Button Link" default="#"  mktomodulescope="true" />
+    <meta class="mktoString" id="HeaderPanelButtonText" mktoname="Header Button Label" default="LEARN MORE"  mktomodulescope="true" />
+    <meta class="mktoNumber" id="spaceAboveHead" mktoName="Spacing Above Headline" default="10" min="0" max="40" units="px" step="10" mktomodulescope="true" > 
+
+
+    <!-- Webinar Icons   -->
+    <meta class="mktoString" id="WebinarLink" mktoname="Webinar Link" default="{{my.WebinarLink}}" />
+    <meta class="mktoString" id="SlideLink" mktoname="Slide Link" default="{{my.SlideLink}}" />
+    <meta class="mktoString" id="QALink" mktoname="QA Link" default="{{my.QALink}}" />
+    <meta class="mktoString" id="PollLink" mktoname="Poll Link" default="{{my.PollLink}}" />
+
+
+    <meta class="mktoBoolean" id="showWebinarIcon" mktoName="Webinar Icon" default="true" false_value="all;display:none" true_value="" false_value_name="hide" true_value_name="show" mktomodulescope="true" >
+    <meta class="mktoBoolean" id="showSlideIcon" mktoName="Slide Icon" default="true" false_value="all;display:none" true_value="" false_value_name="hide" true_value_name="show" mktomodulescope="true" >
+    <meta class="mktoBoolean" id="showQAIcon" mktoName="QA Icon" default="true" false_value="all;display:none" true_value="" false_value_name="hide" true_value_name="show" mktomodulescope="true" >
+    <meta class="mktoBoolean" id="showPollIcon" mktoName="Poll Icon" default="true" false_value="all;display:none" true_value="" false_value_name="hide" true_value_name="show" mktomodulescope="true" >
+
+    
+
+    <!-- Hilites   -->
+    <meta class="mktoBoolean" id="showHilite3" mktoName="Hilite 3" default="false" false_value="all;display:none" true_value="" false_value_name="hide" true_value_name="show" mktomodulescope="true" >
+    <meta class="mktoBoolean" id="showHilite4" mktoName="Hilite 4" default="false" false_value="all;display:none" true_value="" false_value_name="hide" true_value_name="show" mktomodulescope="true" >
+    
+    
+    
+    <!-- Featured   -->
+    <meta class="mktoBoolean" id="featureimagealign" mktoName="Align Image" default="false" false_value="rtl" true_value="ltr" false_value_name="Left" true_value_name="Right" mktomodulescope="true" >
+    <meta class="mktoBoolean" id="showFeaturedButton" mktoName="Featured Button" default="false" false_value="all;display:none" true_value="" false_value_name="hide" true_value_name="show" mktomodulescope="true" >
+    <meta class="mktoString" id="FeaturedPanelButtonLink" mktoname="Featured Button Link" default="#"  mktomodulescope="true" />
+    <meta class="mktoString" id="FeaturedPanelButtonText" mktoname="Featured Button Label" default="LEARN MORE"  mktomodulescope="true" />  
+
+
+    <meta class="mktoString" id="ButtonPanelButtonLink" mktoname="Button Link" default="#" mktomodulescope="true" />
+    <meta class="mktoString" id="ButtonPanelButtonText" mktoname="Button Label" default="LEARN MORE" mktomodulescope="true" /> 
+
+    <title>Logitech Video Collaboration</title>
+    <!-- The title tag shows in email notifications, like Android 4.4. -->
+
+
+    <!-- CSS Reset : BEGIN -->
+    <style>
+        /* What it does: Remove spaces around the email design added by some email clients. */
+        /* Beware: It can remove the padding / margin and add a background color to the compose a reply window. */
+        html,
+        body {
+            margin: 0 auto !important;
+            padding: 0 !important;
+            height: 100% !important;
+            width: 100% !important;
+        }
+
+        /* What it does: Stops email clients resizing small text. */
+        * {
+            -ms-text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%;
+        }
+
+        /* What it does: Centers email on Android 4.4 */
+        div[style*="margin: 16px 0"] {
+            margin: 0 !important;
+        }
+
+        /* What it does: Stops Outlook from adding extra spacing to tables. */
+        table,
+        td {
+            mso-table-lspace: 0pt !important;
+            mso-table-rspace: 0pt !important;
+        }
+
+        /* What it does: Fixes webkit padding issue. Fix for Yahoo mail table alignment bug. Applies table-layout to the first 2 tables then removes for anything nested deeper. */
+        table {
+            border-spacing: 0 !important;
+            border-collapse: collapse !important;
+            table-layout: fixed !important;
+            margin: 0 auto !important;
+        }
+        table table table {
+            table-layout: auto;
+        }
+
+        /* What it does: Uses a better rendering method when resizing images in IE. */
+        img {
+            -ms-interpolation-mode:bicubic;
+        }
+
+        /* What it does: A work-around for email clients meddling in triggered links. */
+        *[x-apple-data-detectors],  /* iOS */
+        .x-gmail-data-detectors,    /* Gmail */
+        .x-gmail-data-detectors *,
+        .aBn {
+            border-bottom: 0 !important;
+            cursor: default !important;
+            color: inherit !important;
+            text-decoration: none !important;
+            font-size: inherit !important;
+            font-family: inherit !important;
+            font-weight: inherit !important;
+            line-height: inherit !important;
+        }
+
+        /* What it does: Prevents Gmail from displaying an download button on large, non-linked images. */
+        .a6S {
+           display: none !important;
+           opacity: 0.01 !important;
+       }
+       /* If the above doesn't work, add a .g-img class to any image in question. */
+       img.g-img + div {
+           display: none !important;
+       }
+
+       /* What it does: Prevents underlining the button text in Windows 10 */
+        .button-link {
+            text-decoration: none !important;
+        }
+
+        /* What it does: Removes right gutter in Gmail iOS app: https://github.com/TedGoas/Cerberus/issues/89  */
+        /* Create one of these media queries for each additional viewport size you'd like to fix */
+
+        /* iPhone 4, 4S, 5, 5S, 5C, and 5SE */
+        @media only screen and (min-device-width: 320px) and (max-device-width: 374px) {
+            .email-container {
+                min-width: 320px !important;
+            }
+        }
+        /* iPhone 6, 6S, 7, 8, and X */
+        @media only screen and (min-device-width: 375px) and (max-device-width: 413px) {
+            .email-container {
+                min-width: 375px !important;
+            }
+        }
+        /* iPhone 6+, 7+, and 8+ */
+        @media only screen and (min-device-width: 414px) {
+            .email-container {
+                min-width: 414px !important;
+            }
+        }
+    </style>
+    <!-- CSS Reset : END -->
+
+    <!-- Progressive Enhancements : BEGIN -->
+    <style>
+        /* What it does: Hover styles for buttons */
+        .button-td,
+        .button-a {
+            transition: all 100ms ease-in;
+        }
+        .button-td:hover,
+        .button-a:hover {
+            background: #2f3132 !important;
+            border-color: #2f3132 !important;
+        }
+
+        /* Media Queries */
+        @media screen and (max-width: 600px) {
+
+            .email-container {
+                width: 100% !important;
+                margin: auto !important;
+            }
+
+            /* What it does: Forces elements to resize to the full width of their container. Useful for resizing images beyond their max-width. */
+            .fluid {
+                max-width: 100% !important;
+                height: auto !important;
+                margin-left: auto !important;
+                margin-right: auto !important;
+            }
+
+            /* What it does: Forces table cells into full-width rows. */
+            .stack-column,
+            .stack-column-center {
+                display: block !important;
+                width: 100% !important;
+                max-width: 100% !important;
+                direction: ltr !important;
+            }
+            /* And center justify these ones. */
+            .stack-column-center {
+                text-align: center !important;
+            }
+
+            /* What it does: Generic utility class for centering. Useful for images, buttons, and nested tables. */
+            .center-on-narrow {
+                text-align: center !important;
+                display: block !important;
+                margin-left: auto !important;
+                margin-right: auto !important;
+                float: none !important;
+            }
+            table.center-on-narrow {
+                display: inline-block !important;
+            }
+
+            /* What it does: Adjust typography on small screens to improve readability */
+            .email-container p {
+                font-size: 17px !important;
+            }
+        }
+
+    .fluid {                max-width: 100% !important;
+                height: auto !important;
+                margin-left: auto !important;
+                margin-right: auto !important;
+}
+    
+    </style>
+    <!-- Progressive Enhancements : END -->
+
+    <!-- What it does: Makes background images in 72ppi Outlook render at correct size. -->
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:AllowPNG/>
+            <o:PixelsPerInch>96</o:PixelsPerInch>
+        </o:OfficeDocumentSettings>
+    </xml>
+    <![endif]-->
+
+</head>
+
+<body width="100%" bgcolor="#eeeeee" style="margin: 0; mso-line-height-rule: exactly;">
+
+<center style="width: 100%; text-align: left;">
+        <!-- Visually Hidden Preheader Text : BEGIN -->
+        <div style="display: none; font-size: 1px; line-height: 1px; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden; mso-hide: all; font-family: sans-serif;">  ${preheader} </div>
+        <!-- Visually Hidden Preheader Text : END -->
+<!-- Container : BEGIN -->        
+        <table role="presentation" bgcolor="#eeeeee" cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
+            <tr>
+                <td valign="top" align="center" class="mktoContainer" id="template-wrapper" >
+
+
+                    
+                    
+
+                    <!-- Banner Image Section : BEGIN -->
+                    <table class="mktoModule" id="heroimage" mktoname="Hero Banner Image" role="presentation" bgcolor="#eeeeee" cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
+                        <tr>
+                            <td valign="top" align="center">
+                               
+                   <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="600" align="center" class="email-container">
+                    <tr>
+                    <td>
+
+                                    <table bgcolor="#00ead0" srole="presentation" cellspacing="0" cellpadding="0" border="0" align="center" width="100%" style="max-width: 680px; font-family: sans-serif; color: #0a0a0a; font-size: 12px; line-height: 140%;">
+                                        <!-- Banner Image, Flush : BEGIN -->
+                                        <tr>
+                                            <td bgcolor="#00ead0" align="center">
+                                                <img src="aec-header1.jpg" width="800" alt="" border="0" align="center" style="height: auto; width: 100%; max-width: 600px; font-family: sans-serif; font-size: 15px; line-height: 140%; color: #0a0a0a; margin: 0 auto; display: block;"
+                                                    class="mktoImg" id="banner" mktoName="Banner Image">
+                                            </td>
+                                        </tr>
+                                        <!-- Banner Image, Flush : END -->
+                                    </table>
+                    </td>
+                    </tr>
+                    </table>
+
+                            </td>
+                        </tr>
+                    </table>
+                    <!-- Banner Image : END -->                    
+                    
+                    
+
+                   
+                    
+                    
+                    <!-- Header Text Section : BEGIN -->
+                    <table class="mktoModule" id="headertext" mktoName="Header Text Section" role="presentation" bgcolor="#eeeeee" cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
+                        <tr>
+                            <td valign="top" align="center">
+                               
+                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="600" align="center" class="email-container">
+                    <tr>
+                    <td>
+
+                                    <table role="presentation" bgcolor="#00ead0" cellspacing="0" cellpadding="0" border="0" align="center" width="100%" style="margin: 0 auto;" class="email-container">
+
+                                        <!-- Header Text Panel : BEGIN -->
+                                        <tr>
+                                            <td bgcolor="#00ead0" style="text-align: center; padding: 40px; padding-bottom: 0;">
+                                                <h2 style="margin: 0; font-family: sans-serif; font-size: 18px; line-height: 140%; font-weight: 700; text-transform: uppercase; font-weight:bold; color: #fefefe;" class="mktoText" id="headercolbodytext" mktoName="Header Column Body Text">COME VISIT US AT BOOTH&nbsp;223</h2>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td bgcolor="#00ead0" style="padding: 0 40px 40px; font-family: sans-serif; font-size: 15px; line-height: 140%; text-align: center; color: #fefefe;">
+                                                <div class="mktoText" id="headerbodytext" mktoName="Header Column Body Text" >
+                                                    <p style="margin: 0; ">Swing by to share your ideas for a chance to win Logitech prizes and<br>
+                                                      to discover our thoughtfully designed ergonomic mice and keyboards.<br>
+                                                    Look for our insert in your conference bag.</p>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        
+                                        <!-- Header Text Panel : END -->
+                                    </table>
+                    </td>
+                    </tr>
+                    </table>
+                    
+                            </td>
+                        </tr>
+                    </table>
+                    <!-- Header Text Section : END -->
+                    
+
+
+
+
+
+                    
+                    
+                    
+
+                    <!-- Banner Image Section : BEGIN -->
+                    <table class="mktoModule" id="heroimage" mktoname="Hero Banner Image" role="presentation" bgcolor="#eeeeee" cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
+                        <tr>
+                            <td valign="top" align="center">
+                               
+                   <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="600" align="center" class="email-container">
+                    <tr>
+                    <td>
+
+                                    <table bgcolor="#00ead0" srole="presentation" cellspacing="0" cellpadding="0" border="0" align="center" width="100%" style="max-width: 680px; font-family: sans-serif; color: #0a0a0a; font-size: 12px; line-height: 140%;">
+                                        <!-- Banner Image, Flush : BEGIN -->
+                                        <tr>
+                                            <td bgcolor="#00ead0" align="center">
+                                                <img src="aec-banner2.jpg" width="800" alt="" border="0" align="center" style="height: auto; width: 100%; max-width: 600px; font-family: sans-serif; font-size: 15px; line-height: 140%; color: #0a0a0a; margin: 0 auto; display: block;"
+                                                    class="mktoImg" id="banner2" >
+                                            </td>
+                                        </tr>
+                                        <!-- Banner Image, Flush : END -->
+                                    </table>
+                    </td>
+                    </tr>
+                    </table>
+
+                            </td>
+                        </tr>
+                    </table>
+                    <!-- Banner Image : END -->
+                    
+                    
+                    
+                    
+
+                    
+
+                   
+                   
+ </td>
+            </tr>
+        </table>
+        <!-- Container Section : END -->
+
+
+        <!-- Footer Section : BEGIN -->
+  <table role="presentation" bgcolor="#eeeeee" cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
+            <tr>
+                <td valign="top" align="center">
+                   
+                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="600" align="center" class="email-container">
+                    <tr>
+                    <td>
+                  
+                        <table role="presentation" bgcolor="#2f3132" cellspacing="0" cellpadding="0" border="0" width="100%">
+                            <tr>
+                                <!-- Column : BEGIN -->
+                                <td class="stack-column-center" height="57">
+                                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" width="90%" height="17">
+                                        <tr>
+                                            <td style="padding:0; height: 1px;"> <img src="http://info.logitech.com/rs/201-WGH-889/images/1pixel.gif" width="250" height="1" alt="" border="0" style="height: 1px; display: block;">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td height="17" bgcolor="#2f3132" style="font-family: sans-serif; font-size: 10px; line-height: 140%; color: #fefefe; padding: 10px; text-align: left; height: 17px;" class="center-on-narrow">
+                                                <div class="mktoSnippet" id="social" mktoname="Social" mktoDefaultSnippetId="29"><div><a href="https://twitter.com/logitechvc" style="margin: 0; color: #2199e8; display: inline-block; font-family: Arial,sans-serif; font-weight: 400; line-height: 1; padding: 0; padding-top: 5px!important; text-align: left; text-decoration: none;"><img src="http://info.logitech.com/rs/201-WGH-889/images/email-launch-social-twitter.gif" alt="Twitter" width="20" height="20" style="-ms-interpolation-mode: bicubic; border: none; clear: both; display: block; max-width: 100%; outline: 0; text-decoration: none; width: auto;" /></a> &nbsp; <a href="https://www.linkedin.com/company/logitech-video-collaboration" style="margin: 0; color: #2199e8; display: inline-block; font-family: Arial,sans-serif; font-weight: 400; line-height: 1; padding: 0; padding-top: 5px!important; text-align: left; text-decoration: none;"><img src="http://info.logitech.com/rs/201-WGH-889/images/email-launch-social-linkedin.gif" alt="LinkedIn" class="social-padding" width="20" height="20" style="-ms-interpolation-mode: bicubic; border: none; clear: both; display: block; max-width: 100%; outline: 0; text-decoration: none; width: auto;" /></a> &nbsp; <a href="https://www.facebook.com/LogitechVideoCollaboration/" style="margin: 0; color: #2199e8; display: inline-block; font-family: Arial,sans-serif; font-weight: 400; line-height: 1; padding: 0; padding-top: 5px!important; text-align: left; text-decoration: none;"><img src="http://info.logitech.com/rs/201-WGH-889/images/email-launch-social-facebook.gif" alt="Facebook" class="social-padding" width="20" height="20" style="-ms-interpolation-mode: bicubic; border: none; clear: both; display: block; max-width: 100%; outline: 0; text-decoration: none; width: auto;" /></a> &nbsp; <a href="https://www.youtube.com/playlist?list=PLKPFod6yzh8RrROnyRgy6DYOx3mDmj8UA" style="margin: 0; color: #2199e8; display: inline-block; font-family: Arial,sans-serif; font-weight: 400; line-height: 1; padding: 0; padding-top: 5px!important; text-align: left; text-decoration: none;"><img src="http://info.logitech.com/rs/201-WGH-889/images/email-launch-social-youtube.gif" alt="YouTube" class="social-padding" width="20" height="20" style="-ms-interpolation-mode: bicubic; border: none; clear: both; display: block; max-width: 100%; outline: 0; text-decoration: none; width: auto;" /></a></div></div>
+                                                
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding:0; height: 1px;"> <img src="http://info.logitech.com/rs/201-WGH-889/images/1pixel.gif" width="250" height="1" alt="" border="0" style="height: 1px; display: block;">
+                                            </td>
+                                        </tr>
+                                    </table>
+
+
+
+
+                                </td>
+                                <!-- Column : END -->
+                                <!-- Column : BEGIN -->
+                                <td class="stack-column-center" height="57">
+
+                                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="90%">
+                                        <tr>
+                                            <td style="padding:0; height: 1px;"> <img src="http://info.logitech.com/rs/201-WGH-889/images/1pixel.gif" width="250" height="1" alt="" border="0" style="height: 1px; display: block;">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="font-family: sans-serif; font-size: 10px; line-height: 140%; color: #ffffff; padding: 10px; text-align: right; display: block;" class="center-on-narrow">
+                                                <div class="mktoSnippet" id="copyright" mktoname="Copyright" style="padding:0;margin-top:0;margin-bottom:0;" mktoDefaultSnippetId="279">&copy; 2019 Logitech. All Rights Reserved. | <a style="color: #fefefe;" href="https://www.logitech.com/legal/web-privacy-policy.html" target="_blank" class="mktNoTrack">Privacy Policy</a>.</div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding:0; height: 1px;"> <img src="http://info.logitech.com/rs/201-WGH-889/images/1pixel.gif" width="250" height="1" alt="" border="0" style="height: 1px; display: block;">
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                                <!-- Column : END -->
+                            </tr>
+                        </table>
+
+                     
+                    </td>
+                    </tr>
+                    </table>
+
+        
+
+                    
+                    
+                </td>
+            </tr>
+  </table>
+
+        <!-- Footer Section : END -->
+
+       
+
+</center>
+</body>
+
+</html>
