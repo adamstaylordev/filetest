@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/* CSS Document */
+.font-light {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+}
+.font-regular {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+.font-medium {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+.font-semibold {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+.font-bold {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
