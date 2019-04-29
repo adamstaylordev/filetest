@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/* CSS Document */
+.font-light {
+  font-family: Brown-Pro-Light, 'Poppins', sans-serif;
+  font-weight: 300;
+}
+.font-regular {
+  font-family: Brown-Pro-Regular, 'Poppins', sans-serif;
+  font-weight: 400;
+}
+.font-medium {
+  font-family: Brown-Pro-Regular, 'Poppins', sans-serif;
+  font-weight: 500;
+}
+.font-semibold {
+  font-family: Brown-Pro-Regular, 'Poppins', sans-serif;
+  font-weight: 600;
+}
+.font-bold {
+  font-family: Brown-Pro-Bold, 'Poppins', sans-serif;
+  font-weight: 700;
+}
