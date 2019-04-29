@@ -1,0 +1,114 @@
+* { margin: 0; padding: 0px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box;
+    box-sizing: border-box;  }
+
+body { font-size: 16px;  font-family: 'Brown-Pro-Light'; color: #2f3132;  }
+li { list-style: none;  }
+a { outline: none; text-decoration: none;  }
+img { width: 100%;  }
+.fl { float: left;   }
+.fr { float: right;  }
+.clear { clear: both; height: 0; overflow: hidden;  }
+.padding100 { padding: 100px 0;  }
+
+h1, h2, h3, h4 { margin-bottom: 8px; text-align: center; text-transform: uppercase; font-size: 35px; color: #2f3132; font-weight: normal; font-family: 'Brown-Pro-Bold'; }
+p { margin-bottom: 60px; line-height: 21px; text-align: center;  }
+.white { color: #fff;  }
+
+.wrapper { max-width: 1240px; margin: 0 auto; width: 96%; }
+
+.floating-share { z-index: 99; position: fixed; width: 40px; left: 0; top: 30%;  }
+.floating-share span { text-align: center; font-size: 8px; text-transform: uppercase; color: #ff2947; display: block; letter-spacing: 1px; font-family: 'Brown-Pro-Bold'; }
+.floating-share li { width: 100%; float: left;  }
+.floating-share li a { display: block; line-height: 0;  }
+
+header { position: absolute; width: 100%; left: 0; top: 22px;  }
+header img { width: auto;  }
+
+.main-banner { padding: 48px 0 30px 0px; overflow: hidden; background: url(https://logitech.adamstaylor.com/html/india-digital-marketing-campaign/general-landing-page/img/banner.jpg) center top no-repeat; background-size: cover;  }
+.main-banner.comptions { background: url(https://logitech.adamstaylor.com/html/india-digital-marketing-campaign/general-landing-page/img/banner1.jpg) center top no-repeat; background-size: cover; }
+.main-banner .txt  { width: 670px; color: #fff; line-height: 65px; font-size: 65px; text-transform: uppercase; padding-top: 180px; font-family: 'Brown-Pro-Bold';  } 
+.main-banner .txt span { margin-bottom: 10px; font-size: 24px;  font-family: 'Brown-Pro-Light'; display: block; text-transform: none; line-height: normal;  }
+
+.global-box { overflow: hidden;  }
+.global-box .global-slider { padding: 0 80px;  }
+.global-box img { width: auto;  }
+
+.meeting-box { overflow: hidden; background: #00b8fc;  }
+.meeting-tiles { margin: 0 -3.3% 0 -5.3%; margin-bottom: 70px; overflow: hidden; text-align: center;  }
+.meeting-tiles img { width: auto;  }
+.meeting-tiles .meeting { padding: 0 10px; float: left; width: 25%;  }
+.meeting-tiles .meeting p { line-height: 26px; font-size: 20px; color: #fff; margin-bottom: 0px; font-family: 'Brown-Pro-Regular'; }
+.meeting-tiles .icon { overflow: hidden; height: 95px;  }
+.meeting-tiles .meeting span { display: block;  }
+
+.video-div { padding-top: 60px; border-top: 1px solid #4dcdfd; overflow: hidden;  }
+.video-div .video-tiles { overflow: hidden; margin-right: -3%;  }
+.video-div h3 { margin-bottom: 30px; font-size: 30px; line-height: 30px; color: #fff;  }
+.video-div .video { margin-right: 3%; width: 22%; float: left;  }
+.video-div .video a { display: block;  }
+.video-div h4 { margin-top: 24px; font-size: 24px; line-height: 24px; color: #fff;  }
+.video-div h4 span { margin-top: 5px; text-transform: none; font-size: 19px; color: #c3efff; display: block; font-family: 'Brown-Pro-Regular'; }
+
+.level-box {  overflow: hidden;  }
+.level-box .level-video { overflow: hidden;  }
+.level-box .left { width: 67%;  }
+.level-box .right { padding-top: 50px; width: 25%;  }
+.level-box .left a { display: block; position: relative;  } 
+.level-box .left a:before { margin: -48px 0 0 -48px; width: 96px; height: 96px; position: absolute; left: 50%; top: 50%; content: ""; background: url(https://logitech.adamstaylor.com/html/india-digital-marketing-campaign/general-landing-page/img/play-icon.png) center no-repeat;  }
+.level-box h4 { margin-bottom: 20px; text-align: left; font-size: 30px; line-height: 30px;  }
+.level-box h4 span { display: block;  }
+.level-box .level-video p { margin-bottom: 20px; text-align: left;  }
+
+.world-box { overflow: hidden; background: #f4f4f4;  }
+.world-box .needs{ margin-top: 10px; font-size: 10px; overflow: hidden;  }
+.world-box img { display: inline-block!important; width: auto;  }
+.world-box .world-slider { overflow: hidden; text-align: center;  }
+.world-box .world-slider p { font-size: 22px; color: #888; line-height: 30px; font-style: italic; margin-bottom: 20px;  }
+.world-box .icon { height: 75px; overflow: hidden;  }
+.world-box .user { margin-bottom: 30px; color: #58585a; line-height: 20px; overflow: hidden;  }
+.world-box .world-slider a { text-transform: uppercase; font-size: 13px; color: #00b8fc; font-family: 'Brown-Pro-Regular'; } 
+.world-box .world-slider a span { padding-right: 12px; background: url(https://logitech.adamstaylor.com/html/india-digital-marketing-campaign/general-landing-page/img/arrow.png) right top no-repeat;  }
+.world-box .world { position: relative; padding: 0 40px; } 
+
+.slick-dots { display: none; margin-top: 40px; overflow: hidden;  text-align: center; }
+.slick-dots li { margin: 0 6px; display: inline-block;  }
+.slick-dots li button { cursor: pointer; border:none; width: 12px; height: 12px; font-size: 0; background: #c3c6c8; -webkit-border-radius: 100%; border-radius: 100%; }
+.slick-dots li.slick-active button { background: #00b8fc;  }
+button:focus { outline: none;  }
+
+.slick-prev { margin-top: -15px; z-index: 9; border:none; cursor: pointer; font-size: 0; width: 21px; height: 30px; position: absolute; left: 0; top: 50%; background: url(https://logitech.adamstaylor.com/html/india-digital-marketing-campaign/general-landing-page/img/left-arrow.png) left top no-repeat;   }
+.slick-next { margin-top: -15px; z-index: 9; border:none; cursor: pointer; font-size: 0; width: 21px; height: 30px; position: absolute; right: 0; top: 50%; background: url(https://logitech.adamstaylor.com/html/india-digital-marketing-campaign/general-landing-page/img/right-arrow.png) left top no-repeat;   }
+
+.table-style { margin-top: 40px; overflow: hidden;  }
+.table-style table {  border-right: none;  }
+.table-style th { border-bottom: 1px solid #000; border-top: 1px solid #000; background: none; font-family: 'Brown-Pro-Bold';  }
+.table-style table tbody tr {   }
+.table-style table tbody tr:nth-of-type(2n + 1) {  }
+.table-style th, .table-style td { font-size: 14px; text-align: left;  padding: 15px 25px; }
+.table-style tbody td { color: #6f7678;  border-bottom: 1px solid #e1e2e3; }
+
+.form-part { padding: 20px; background: rgba(255,255,255,0.10); border:1px solid #a9a9a9; width: 363px;  }
+.form-part h3 { text-align: left; line-height: normal; color: #fff; font-family: 'Brown-Pro-Bold';  }
+.mktoForm .mktoLabel { display: none;  }
+.mktoForm { width: 100%!important;  }
+.mktoForm  textarea { height: 47px!important; background: #f4f4f4; border:none; font-size: 14px!important; color: #757575;  font-family: 'Brown-Pro-Regular'; }
+.mktoForm  input, .mktoForm  select { border:none; font-size: 14px!important; color: #757575; font-family: 'Brown-Pro-Regular'; height: 32px!important; background: #f4f4f4;  }
+.mktoForm  input, .mktoForm  .mktoFieldWrap, .mktoForm  .mktoFormCol, .mktoForm  select, .mktoForm  textarea { width: 100%!important; min-height: inherit!important; }
+.mktoForm .mktoGutter, .mktoForm .mktoOffset { height: auto!important;  }
+.mktoForm .mktoFormRow { margin-bottom: 10px;  }
+.mktoForm button { border:none; font-size: 14px; color: #fff; text-transform: uppercase; background: #ff2947; height: 38px; font-family: 'Brown-Pro-Bold';  }
+.mktoForm button, .mktoButtonRow { width: 100%;  }
+#honeypot { display: none!important;  }
+.mktoButtonWrap.mktoNative { display: block; margin: 0px!important;  }
+.mktoForm  input:focus, .mktoForm  select:focus, .mktoForm  textarea:focus, .mktoForm  button:focus { outline: none;  }
+
+.mktoFormRow:nth-child(10) label { padding-right: 35px; text-transform: uppercase; font-size: 14px; color: #fff; display: block; font-family: 'Brown-Pro-Bold';     width: 100%!important; } 
+.mktoForm .mktoLogicalField { width: 24px!important; position: absolute; right: 0; top: 0;  }
+
+.scrolltop { cursor: pointer; width: 170px; height: 45px; text-align: center; line-height: 45px;  color: #fff; background: #00b8fc; font-size: 12px; margin: 0 auto; font-family: 'Brown-Pro-Bold'; margin: 40px auto 0 auto; display: block; }
+
+
+.formcontainer .mktoForm .mktoLabel[for="z-MKTDATA-OptIn"] {
+    font-family: inherit !important;
+
+}
